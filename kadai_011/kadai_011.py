@@ -5,7 +5,7 @@ for i in array:
     print(i)
 
 #while構文で出力
-i = 0 #インデックス指定・リストの最初から順に取り出す
+i = 0 
 while i < len(array):
     print(array[i])
     i = i + 1
