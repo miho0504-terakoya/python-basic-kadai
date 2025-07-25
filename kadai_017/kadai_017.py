@@ -5,7 +5,10 @@ class Human:
         
     def check_adult(self):
         if 20 <= self.age:
-            print(self.name)
+            print(self.name, "大人")
+            
+        else:
+            print(self.name, "子ども")
 
 
 people = [
